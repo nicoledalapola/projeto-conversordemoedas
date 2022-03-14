@@ -1,65 +1,65 @@
 body {
-    font-family: "Roboto Mono", monospace;
-    min-height: 400px;
-    background-image: url("https://img.freepik.com/fotos-gratis/homem-calculando-suas-economias-durante-a-pandemia-covid-19_53876-153412.jpg?t=st=1647269785~exp=1647270385~hmac=37938044890a2a365512c59186ae3cf948e28b9da36e5b158e5c9e23ee9356e7&w=996");
-    background-color: #000000;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://img.freepik.com/fotos-gratis/homem-calculando-suas-economias-durante-a-pandemia-covid-19_53876-153412.jpg?t=st=1647269785~exp=1647270385~hmac=37938044890a2a365512c59186ae3cf948e28b9da36e5b158e5c9e23ee9356e7&w=996");
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
   
-  .container {
-    text-align: center;
-    padding: 20px;
-    height: 100vh;
-  }
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
   
-  .page-title {
-    color: #ffffff;
-    margin: 0 0 5px;
-    padding-top: 60px;
-  }
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+  padding-top: 60px;
+}
   
-  .page-subtitle {
-    color: #ffffff;
-    margin-top: 5px;
-    padding: 20px;
-  }
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+  padding: 20px;
+}
   
-  .page-logo {
-    width: 200px;
-  }
+.page-logo {
+  width: 200px;
+}
   
-  .alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
   
-  input {
-    margin: 12px;
-    padding: 6px;
-    border-radius: 8px;
-  }
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 8px;
+}
   
-  label {
-    color: white;
-  }
+label {
+  color: white;
+}
   
-  button {
-    margin-top: 12px;
-    padding: 4px 8px;
-    border-radius: 10px;
-    background: #ffffff;
-  }
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
   
-  .button:hover {
-    background-color: #FAC576;
-    cursor: pointer;
-  }
+.button:hover {
+  background-color: #FAC576;
+  cursor: pointer;
+}
   
-  h2 {
-    color: #ffffff;
-    font-size: 30px;
-  }
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+}
   
