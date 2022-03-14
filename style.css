@@ -3,7 +3,7 @@ body {
     min-height: 400px;
     background-image: url("https://img.freepik.com/fotos-gratis/homem-calculando-suas-economias-durante-a-pandemia-covid-19_53876-153412.jpg?t=st=1647269785~exp=1647270385~hmac=37938044890a2a365512c59186ae3cf948e28b9da36e5b158e5c9e23ee9356e7&w=996");
     background-color: #000000;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
   }
   
