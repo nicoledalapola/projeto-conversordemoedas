@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">Conversor de moedas</h1>
+        <p class="page-subtitle">Converta os valores em Real para Dólar, Euro ou Yen</p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+        
+        <label for="moeda">Insira o valor em Real R$</label><br>
+        <input type="number" id="valor" size="2" /><br>
+        <button type="submit" onclick="ConverterDolar()" class="button">Dólar</button>
+        <button type="submit" onclick="ConverterEuro()" class="button">Euro</button>
+        <button type="submit" onclick="ConverterYen()" class="button">Yen</button>
+        
+        <h2 id="valorConvertido"></h2>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+<script>
+    function ConverterDolar() {
+        var valorElemento = document.getElementById("valor");
+        var valor = valorElemento.value;
+        var valorEmDolar = parseFloat(valor);
+
+        var valorEmReal = valorEmDolar * 5.07;
+        console.log(valorEmReal);
+
+        var elementoValorConvertido = document.getElementById("valorConvertido");
+        var valorConvertido = "O valor convertido de Dólar ($) em real é R$ " + valorEmReal.toFixed(2);
+        elementoValorConvertido.innerHTML = valorConvertido;
+    }
+
+    function ConverterEuro() {
+        var valorElemento = document.getElementById("valor");
+        var valor = valorElemento.value;
+        var valorEmEuro = parseFloat(valor);
+
+        var valorEmReal = valorEmEuro * 5.57;
+        console.log(valorEmReal);
+
+        var elementoValorConvertido = document.getElementById("valorConvertido");
+        var valorConvertido = "O valor convertido de Euro (€) em real é R$ " + valorEmReal.toFixed(2);
+    elementoValorConvertido.innerHTML = valorConvertido;
+    }
+
+    function ConverterYen() {
+        var valorElemento = document.getElementById("valor");
+        var valor = valorElemento.value;
+        var valorEmYen = parseFloat(valor);
+
+        var valorEmReal = valorEmYen * 0.043;
+        console.log(valorEmReal);
+
+        var elementoValorConvertido = document.getElementById("valorConvertido");
+        var valorConvertido = "O valor convertido de Yen (¥) em real é R$ " + valorEmReal.toFixed(2);
+        elementoValorConvertido.innerHTML = valorConvertido;
+    }
+</script>
+</body>
+</html>
